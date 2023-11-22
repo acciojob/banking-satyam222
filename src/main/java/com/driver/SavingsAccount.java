@@ -11,10 +11,15 @@ public class SavingsAccount extends BankAccount{
         this.maxWithdrawalLimit=maxWithdrawalLimit;
 
     }
-//    public void get() {
-//        double currentBalance = getBalance();
 //
-//    }
+
+    public double getRate() {
+        return rate;
+    }
+
+    public double getMaxWithdrawalLimit() {
+        return maxWithdrawalLimit;
+    }
 
     public void withdraw(double amount) throws Exception {
         // Might throw the following errors:
