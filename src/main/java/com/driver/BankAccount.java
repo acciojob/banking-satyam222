@@ -17,6 +17,15 @@ public class BankAccount {
 
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMinBalance() {
+        return minBalance;
+    }
+
     public double getBalance() {
         return balance;
     }
